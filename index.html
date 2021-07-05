@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="css.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>htmlMeteo</h1>
+    <h2>WEATHER FORECAST PLATFORM</h2>
+    <div class="all">
+        <header>
+            <input placeholder="Country code" class="cntr-in" id="country-s">
+            <input placeholder="City name" class="ct-in" id="city-s">
+            <button class="btn-s" onclick="SeachCity()">Seach</button>
+        </header>
+        <main>
+
+
+            <div class="weat-td">
+                <h4>Weather Today</h4>
+                <p class="place" id="place">City, Country</p>
+                <div class="elem-td">
+                    <span class="temp-td" id="t-td">37.7&#176;</span>
+                    <span id="im-td"></span>
+                    <div>
+                        <p class="another" id="cont"></p>
+                        <p class="another" id="pop"></p>
+                    </div>
+                    <p class="another wind" id="wind"></p>
+                </div>
+            </div>
+
+            <h3>Dailly Forecast</h3>
+            <div id="elems">
+
+            </div>
+
+        </main>
+    </div>
+
+
+
+    <script src="sc.js"></script>
+
+</body>
+
+</html>

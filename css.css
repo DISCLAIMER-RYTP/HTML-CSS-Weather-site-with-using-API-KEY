@@ -1,0 +1,175 @@
+body{
+    background: linear-gradient(to right, #8b00a7, #ff5df7);
+}
+
+.dat{
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.day{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+
+.all{
+    width: 50%;
+    background-color: whitesmoke;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.ct-in{
+    height: 25px;
+    font-size: 18px;
+    margin-right: 0px;
+    border-radius: 10px 0 0 10px;
+    border-width: 1px;
+}
+
+.cntr-in{
+    height: 25px;
+    font-size: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.btn-s{
+    height: 29px;
+    font-size: 18px;
+    margin-left: -5px;
+    border-radius: 0 10px 10px 0;
+    border-width: 1px;
+    background: linear-gradient(to right, #d400ff, #ff5df7);
+    color: white;
+}
+
+header{
+    background-color: rgb(233, 233, 233);
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 2%;
+}
+
+
+.elem{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    font-size: 25px;
+    margin: 2%;
+    background-color: white;
+    transition: 0.5s;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.cntr{
+    padding-top: 10px;
+}
+
+.elem:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.tepm{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.mm-temp{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.temps{
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+}
+
+.weat-td{
+    width: 96%;
+    background: linear-gradient(to bottom, #6200ff, #c300ff);
+    margin: 2%;
+}
+
+.elem-td{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color:white;
+}
+
+h4{
+    color: white;
+    padding: 10px 0 0 10px;
+    margin-bottom: 10px;
+}
+
+.place{
+    color: white;
+    font-size: 28px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.temp-td{
+    font-size:35px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.another{
+    font-size: 15px;
+}
+
+.wind{
+    margin-right: 20%;
+}
+
+.im{
+    width: 65px;
+    height: auto;
+}
+
+.im-td{
+    width: 100px;
+}
+
+.selecter{
+    width: 50px;
+    height: 28px;
+    font-weight: bold;
+    font-size: 18px;
+    border-color: black;
+    border-radius: 7px;
+}
+
+.opt{
+    font-weight: bold;
+    font-size: 18px;
+}
